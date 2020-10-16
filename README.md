@@ -1,1 +1,1 @@
-# hm-ios-sdk
+# iOS SDK
