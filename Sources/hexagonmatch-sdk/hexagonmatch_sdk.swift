@@ -10,7 +10,7 @@ import WebKit
 import Foundation
 import CryptoKit
 
-struct hexagonmatch_sdk {
+public struct hexagonmatch_sdk {
     private let uuid:String?;
     private let model:String;
     private let systemVersion:String;
@@ -22,7 +22,7 @@ struct hexagonmatch_sdk {
     private let clientId:String;
     private let tagId:String;
 
-    init(platformId:String,tagId:String, clientId:String) {
+    public init(platformId:String,tagId:String, clientId:String) {
         
         self.platformId  = platformId
         self.clientId  = clientId
@@ -37,7 +37,7 @@ struct hexagonmatch_sdk {
         
     }
 
-    func SendData(keyValue:String, keyType:String) -> Void {
+    public func SendData(keyValue:String, keyType:String) -> Void {
         
         let utils = Utils()
         let data = utils.ccSha256(data: keyValue.data(using: .utf8)!)
