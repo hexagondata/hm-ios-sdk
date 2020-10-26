@@ -8,7 +8,7 @@ final class hexagonmatch_sdkTests: XCTestCase {
         // results.
        
         let hmmanager = hexagonmatch_sdk(platformId: "1", tagId: "4001", clientId: "LAX")
-        hmmanager.SendData(keyValue: "maupatino@gmail.com", keyType: "email")
+        hmmanager.SendData(keyValue: "email@gmail.com", keyType: "email")
         
     }
 
