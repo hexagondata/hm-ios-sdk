@@ -4,10 +4,24 @@ This project contains Hexagon Match Platform iOS SDK to be provided to clients t
 
 ## Integrating the Hexagon Data SDK
 
+
 Add the library as a Package dependency:
 
+![alt text](https://assets.hexagondata.com/github/step1.png)
 
 
+Write the url of repo https://github.com/hexagondata/hm-ios-sdk.git
+
+![alt text](https://assets.hexagondata.com/github/step2.png)
+
+
+Select bracn "main"
+
+![alt text](https://assets.hexagondata.com/github/step3.png)
+
+Choose the package and click finish
+
+![alt text](https://assets.hexagondata.com/github/step4.png)
 
 
 ### Import the SDK
